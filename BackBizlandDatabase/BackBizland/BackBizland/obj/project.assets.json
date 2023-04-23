@@ -5955,11 +5955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umid_\\Desktop\\BackBizlandDatabase\\BackBizland\\BackBizland\\BackBizland.csproj",
+      "projectUniqueName": "C:\\Users\\umid_\\Desktop\\DataBaseTask\\BackBizlandDatabase\\BackBizland\\BackBizland\\BackBizland.csproj",
       "projectName": "BackBizland",
-      "projectPath": "C:\\Users\\umid_\\Desktop\\BackBizlandDatabase\\BackBizland\\BackBizland\\BackBizland.csproj",
+      "projectPath": "C:\\Users\\umid_\\Desktop\\DataBaseTask\\BackBizlandDatabase\\BackBizland\\BackBizland\\BackBizland.csproj",
       "packagesPath": "C:\\Users\\umid_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umid_\\Desktop\\BackBizlandDatabase\\BackBizland\\BackBizland\\obj\\",
+      "outputPath": "C:\\Users\\umid_\\Desktop\\DataBaseTask\\BackBizlandDatabase\\BackBizland\\BackBizland\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umid_\\AppData\\Roaming\\NuGet\\NuGet.Config",

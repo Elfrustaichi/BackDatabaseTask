@@ -20,13 +20,22 @@
                 <div class="row">
                     @foreach (var item in Model.Services)
                 {
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><i class="@item.Icon"></i></div>
-                            <h4 class="title"><a href="">@item.Header</a></h4>
-                            <p class="description">@item.Description</p>
+                    if (item.Id>4)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                                <div class="icon"><i class="@item.Icon"></i></div>
+                                <h4 class="title"><a href="">@item.Header</a></h4>
+                                <p class="description">@item.Description</p>
+                            </div>
                         </div>
-                    </div>
+                        
+                    }
+                    
                 }
 
 
